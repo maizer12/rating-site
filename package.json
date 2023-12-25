@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "debug": "set NODE_OPTIONS=--inspect&& next dev",
     "start": "next start",
     "lint": "next lint --dir src",
     "lint:fix": "next lint --dir src --fix",
