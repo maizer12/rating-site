@@ -20,7 +20,9 @@ a {
   --black: #3b434e;
   --red: #fc836d;
   --white: #fff;
+  --grey-light: #ebebeb;
   --primary: #7653fc;
+  --primary-hover: #6d58c5;
   --green: #1dc37e;
   --green-light: #c8f8e4;
   --font-family: 'Noto Sans KR', sans-serif;

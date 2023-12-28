@@ -1,0 +1,26 @@
+.button {
+  padding: 11px;
+  background: none;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.outline {
+  border: 1px solid var(--grey-light);
+  color: var(--black);
+}
+.outline:hover {
+  border-color: var(--black);
+}

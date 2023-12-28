@@ -1,11 +1,12 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import { HTag } from '../components';
+import { HTag, Button } from '../components';
 
 function MyApp({ pageProps }: AppProps) {
   return (
     <>
-      <HTag tag="h1"> 465</HTag>
+      <HTag tag="h1">465</HTag>
+      <Button variable="outline">Узнать подробнее</Button>
     </>
   );
 }
