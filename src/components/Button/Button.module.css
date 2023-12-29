@@ -6,6 +6,9 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
 }
 
 .primary {
