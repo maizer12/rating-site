@@ -1,0 +1,7 @@
+.stars {
+  display: flex;
+  column-gap: 5px;
+}
+.stars svg {
+  cursor: pointer;
+}
