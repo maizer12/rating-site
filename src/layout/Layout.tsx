@@ -17,3 +17,12 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
     </>
   );
 };
+export const withLayout = <T extends Record<string, unknown>>(Component: FC<T>) => {
+  return function (props: T): JSX.Element {
+    return (
+      <Layout>
+        <Component {...props} />
+      </Layout>
+    );
+  };
+};
